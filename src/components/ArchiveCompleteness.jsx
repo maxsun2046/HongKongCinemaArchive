@@ -1,0 +1,3 @@
+import { getArchiveCompleteness } from '../utils/archiveCompleteness'
+
+export default function ArchiveCompleteness({ film, compact = false }) { const report = getArchiveCompleteness(film); if (compact) return <span className="completeness-compact">完成度 {report.percent}%</span>; return <section className="archive-completeness"><div className="completeness-heading"><span>档案完成度</span><b>{report.percent}%</b></div><div className="completeness-bar" aria-label={`档案完成度 ${report.percent}%`}><i style={{ width: `${report.percent}%` }} /></div><div className="completeness-lists"><p>已完成：{report.completed.map(item => <span key={item.label}>✓ {item.label}</span>)}</p><p>待完善：{report.missing.map(item => <span key={item.label}>□ {item.label}</span>)}</p></div></section> }

@@ -1,0 +1,9 @@
+{
+  "id": "person-id",
+  "name": "中文名",
+  "englishName": "English Name",
+  "roles": ["身份"],
+  "summary": "人物简介",
+  "era": "所属时代",
+  "films": ["film-id"]
+}

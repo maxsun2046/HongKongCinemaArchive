@@ -1,0 +1,5 @@
+[
+  {"id":"golden-harvest","name":"嘉禾电影","englishName":"Golden Harvest","founded":1970,"summary":"香港电影黄金时期的重要制作公司，以动作、喜剧与国际发行见称。","era":"嘉禾黄金十年","people":["bruce-lee","lo-wei","maria-yi","james-tien","han-ying-chieh","jackie-chan","sammo-hung","yuen-biao","edward-tang","lola-forner","benny-urquidez","dong-biao","mars","emily-chu","mang-hoi","barry-wong","anita-mui","gua-ah-leh"],"films":["the-big-boss","fist-of-fury","the-way-of-the-dragon","enter-the-dragon","project-a","wheels-on-meals","police-story","heart-of-dragon","miracles"]},
+  {"id":"concord-production","name":"协和电影公司","englishName":"Concord Production Inc.","founded":1971,"summary":"由李小龙创立的电影制作公司，以《猛龙过江》体现其自编、自导、自演的创作主导权。","era":"李小龙时代","people":["bruce-lee"],"films":["the-way-of-the-dragon"]},
+  {"id":"warner-bros","name":"华纳兄弟","englishName":"Warner Bros.","founded":1923,"summary":"参与《龙争虎斗》国际发行的重要电影公司。","era":"国际合拍","people":["bruce-lee"],"films":["enter-the-dragon"]}
+]

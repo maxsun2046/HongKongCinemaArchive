@@ -1,0 +1,10 @@
+{
+  "id": "company-id",
+  "name": "公司中文名",
+  "englishName": "Company English Name",
+  "founded": 1900,
+  "summary": "公司历史简介",
+  "era": "所属时代",
+  "people": ["person-id"],
+  "films": ["film-id"]
+}

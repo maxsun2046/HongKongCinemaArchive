@@ -1,0 +1,3 @@
+function Stars({ rating }) { return <span className="watch-stars" aria-label={`${rating} 星`}>{'★'.repeat(rating)}{'☆'.repeat(5 - rating)}</span> }
+
+export default function WatchHistory({ entries = [] }) { return <section className="archive-section watch-history"><p>我的观看记录</p>{entries.length ? <div className="watch-list">{[...entries].reverse().map((entry, index) => <article key={`${entry.date}-${index}`}><div><time>{entry.date}</time><span>{entry.device} · {entry.version}</span></div><Stars rating={entry.rating} />{entry.note && <small>{entry.note}</small>}</article>)}</div> : <p className="watch-empty">尚无观看记录。</p>}</section> }

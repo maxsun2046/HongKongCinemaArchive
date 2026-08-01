@@ -1,0 +1,14 @@
+{
+  "id": "exhibition-id",
+  "title": "展览标题",
+  "englishTitle": "Exhibition English Title",
+  "period": "1980—1989",
+  "summary": "展览简介",
+  "timeline": [
+    { "year": 1980, "event": "时间线事件" }
+  ],
+  "keyPeople": ["person-id"],
+  "keyCompanies": ["company-id"],
+  "films": ["film-id"],
+  "keywords": ["关键词"]
+}

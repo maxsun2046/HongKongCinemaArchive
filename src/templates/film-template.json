@@ -1,0 +1,61 @@
+{
+  "id": "new-film-id",
+  "titles": {
+    "zhHans": "中文片名",
+    "en": "English Title"
+  },
+  "release": {
+    "year": 2000,
+    "regions": ["香港"]
+  },
+  "production": {
+    "companies": [
+      { "id": "company-id", "name": "制作公司名称" }
+    ],
+    "distributors": [
+      { "id": "company-id", "name": "发行公司名称" }
+    ]
+  },
+  "credits": {
+    "director": { "personId": "director-id", "name": "导演姓名" },
+    "cast": [
+      { "personId": "cast-id", "name": "主演姓名" }
+    ],
+    "actionDirectors": [
+      { "personId": "action-director-id", "name": "动作指导姓名" }
+    ],
+    "screenwriters": [
+      { "personId": "screenwriter-id", "name": "编剧姓名" }
+    ]
+  },
+  "taxonomy": {
+    "genres": ["类型"],
+    "eraTags": ["时代标签"],
+    "keywords": ["关键词"]
+  },
+  "archive": {
+    "rating": 0,
+    "historicalValue": 0,
+    "entertainmentValue": 0,
+    "culturalImpact": 0,
+    "synopsis": "历史简介"
+  },
+  "collection": {
+    "cloud": { "provider": "夸克网盘", "status": "planned", "openList": false },
+    "nas": { "exists": false, "note": null },
+    "physical": { "type": null, "edition": null },
+    "playbackDevices": ["Apple TV", "Infuse", "MT8581"]
+  },
+  "watchHistory": [],
+  "relations": {
+    "people": ["person-id"],
+    "films": [],
+    "exhibitions": ["exhibition-id"]
+  },
+  "display": {
+    "posterColor": "midnight",
+    "poster": "posters/new_film_2000.svg",
+    "cover": "covers/new_film_2000.svg",
+    "gallery": []
+  }
+}
