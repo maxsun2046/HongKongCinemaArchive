@@ -47,16 +47,18 @@
     "id": "hong_kong_new_wave",
     "title": "香港新浪潮",
     "englishTitle": "Hong Kong New Wave",
-    "period": "1980—1997",
-    "summary": "新一代作者重新凝视高速变化的城市。",
-    "timeline": [
-      { "year": 1980, "event": "新浪潮电影进入公众视野" },
-      { "year": 1997, "event": "城市叙事留下一个时代的注脚" }
-    ],
+    "period": "1979—1990",
+    "status": "active",
+    "summary": "1970年代末，一批新导演以新的电影语言重新观看香港。",
+    "intro": "1970年代末期香港电影工业迎来新一代创作者，他们带来新的叙事方式、影像语言与电影观念。",
+    "background": "电视工业培养的新导演进入电影领域，推动香港电影从传统商业模式走向类型创新与作者表达。",
+    "significance": "香港新浪潮重新定义了香港电影的艺术表达，并影响之后数十年的类型电影发展。",
+    "timeline": [],
+    "people": [],
     "keyPeople": [],
     "keyCompanies": [],
     "films": [],
-    "keywords": ["城市", "作者电影", "新电影"]
+    "keywords": ["历史展厅"]
   },
   {
     "id": "stephen_chow_era",

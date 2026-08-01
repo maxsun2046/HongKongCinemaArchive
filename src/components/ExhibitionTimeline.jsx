@@ -1,6 +1,13 @@
 import { Link } from 'react-router-dom'
 
 export default function ExhibitionTimeline({ timeline }) {
+  if (!timeline?.length) {
+    return <section className="exhibition-detail__section">
+      <p>时间线</p>
+      <div className="exhibition-timeline exhibition-timeline--empty">展览资料正在整理中</div>
+    </section>
+  }
+
   return <section className="exhibition-detail__section">
     <p>时间线</p>
     <div className="exhibition-timeline">
