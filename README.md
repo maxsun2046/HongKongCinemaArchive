@@ -11,7 +11,9 @@
 
 ## 当前版本
 
-V1.9
+V1.98
+
+V1.x 基础建设阶段完成。下一阶段：V2.0 香港新浪潮专题展厅。
 
 ## 运行
 
@@ -29,3 +31,5 @@ npm run dev
 - `docs/DATA_MODEL.md`：数据模型。
 - `docs/ROADMAP.md`：后续路线。
 - `docs/data-entry-guide.md`：档案录入指南。
+- `docs/BACKUP_STRATEGY.md`：备份与多设备维护策略。
+- `docs/RELEASES.md`：V1.x 发布记录与 Git 标签。
